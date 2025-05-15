@@ -1,0 +1,34 @@
+common:
+  model_name: LSTM
+  hidden_dim: 64
+  weight_decay: 0.0001
+  learning_rate: 0.001
+
+tasks:
+  load:
+    epochs: 10
+    x_path: data/load/X_load_daily.npy
+    y_path: data/load/y_load_daily.npy
+    log_path: outputs/LSTM/load/metrics_log.json
+    model_path: outputs/LSTM/load/full_model.pt
+
+  solar:
+    epochs: 500
+    x_path: data/solar/X_solar_daily.npy
+    y_path: data/solar/y_solar_daily.npy
+    log_path: outputs/LSTM/solar/metrics_log.json
+    model_path: outputs/LSTM/solar/full_model.pt
+
+  wind:
+    epochs: 100
+    x_path: data/wind/X_wind_daily.npy
+    y_path: data/wind/y_wind_daily.npy
+    log_path: outputs/LSTM/wind/metrics_log.json
+    model_path: outputs/LSTM/wind/full_model.pt
+
+  lmp:
+    epochs: 100
+    x_path: data/lmp/X_lmp_hourly.npy
+    y_path: data/lmp/y_lmp_hourly.npy
+    log_path: outputs/LSTM/lmp/metrics_log.json
+    model_path: outputs/LSTM/lmp/full_model.pt

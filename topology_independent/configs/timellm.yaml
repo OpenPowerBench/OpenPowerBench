@@ -1,0 +1,82 @@
+task_name: load
+model_name: TimeLLM
+seq_len: 24
+pred_len: 24
+factor: 3
+enc_in: 7
+dec_in: 7
+c_out: 7
+d_model: 32
+d_ff: 128
+learning_rate: 0.01
+llm_layers: 32
+train_epochs: 1
+x_path: "data/load/X_load_daily.npy"
+y_path: "data/load/y_load_daily.npy"
+instruction: "Electric load demand drives grid scheduling and planning; accurate short-term forecasts are essential for reliable, economical operation."
+log_path: "outputs/TimeLLM/load/metrics_log.json"
+
+
+
+#task_name: wind
+#model_name: TimeLLM
+#seq_len: 24
+#pred_len: 24
+#factor: 3
+#enc_in: 7
+#dec_in: 7
+#c_out: 7
+#d_model: 32
+#d_ff: 128
+#learning_rate: 0.01
+#llm_layers: 32
+#train_epochs: 1
+#x_path: "data/wind/X_wind_daily.npy"
+#y_path: "data/wind/y_wind_daily.npy"
+#instruction: "Wind power is highly variable; precise short‑term forecasts are vital for grid balancing, dispatch, and renewable integration."
+#log_path: "outputs/TimeLLM/wind/metrics_log.json"
+
+
+
+
+#task_name: solar
+#model_name: TimeLLM
+#seq_len: 24
+#pred_len: 24
+#factor: 3
+#enc_in: 7
+#dec_in: 7
+#c_out: 7
+#d_model: 32
+#d_ff: 128
+#learning_rate: 0.01
+#llm_layers: 32
+#train_epochs: 1
+#x_path: "data/solar/X_solar_daily.npy"
+#y_path: "data/solar/y_solar_daily.npy"
+#instruction: "Solar output fluctuates with weather and daylight; precise short‑term forecasts are key for dispatch, reserves, and PV integration."
+#log_path: "outputs/TimeLLM/solar/metrics_log.json"
+
+
+
+
+#task_name: lmp
+#model_name: TimeLLM
+#seq_len: 12
+#pred_len: 12
+#factor: 3
+#enc_in: 7
+#dec_in: 7
+#c_out: 7
+#d_model: 32
+#d_ff: 128
+#learning_rate: 0.01
+#llm_layers: 32
+#train_epochs: 1
+#x_path: "data/lmp/X_lmp_hourly.npy"
+#y_path: "data/lmp/y_lmp_hourly.npy"
+#instruction: "Locational Marginal Price (LMP) captures real‑time supply, demand, and congestion; accurate forecasts inform bidding, hedging, and dispatch."
+#log_path: "outputs/TimeLLM/lmp/metrics_log.json"
+
+
+
