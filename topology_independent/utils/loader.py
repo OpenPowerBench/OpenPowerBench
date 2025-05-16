@@ -51,7 +51,7 @@ def load_data_norm(config):
 
 def load_data(args):
     train_set, val_set, test_set = _split_dataset(args.x_path, args.y_path)
-    batch_size = 2
+    batch_size = 32
 
     return (
         train_set,
