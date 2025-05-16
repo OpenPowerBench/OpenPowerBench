@@ -52,8 +52,6 @@ def vali(args, model, vali_data, vali_loader, criterion):
     y_true, y_pred = [], []
     with torch.no_grad():
         for i, (batch_x, batch_y) in tqdm(enumerate(vali_loader)):
-            if i ==1:
-                break
             batch_x = batch_x.unsqueeze(-1).float().to(device)
             batch_y = batch_y.unsqueeze(-1).float()
 
@@ -121,8 +119,6 @@ def main():
             model.train()
             epoch_time = time.time()
             for i, (batch_x, batch_y) in tqdm(enumerate(train_loader)):
-                if i==1:
-                    break
                 iter_count += 1
                 model_optim.zero_grad()
 
