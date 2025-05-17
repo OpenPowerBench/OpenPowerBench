@@ -8,11 +8,11 @@
 OpenPowerBench is a first-of-its-kind open-source, multi-task, cross-temporal dataset designed to support training and evaluation of foundation models in power systems. OpenPowerBench includes both topology-dependent tasks (e.g., power flow, optimal power flow, contingency analysis) and topology-independent tasks (e.g., load forecasting, price prediction), supported by a modular data generation pipeline for scalable benchmarking across synthetic and real-world scenarios.
 
 <p align="center">
-<img src="./figures/Data generation flow.png" height = "190" alt="" align=center />
+<img src="./figures/data_structure.png" height = "190" alt="" align=center />
 </p>
 
 <p align="center">
-<img src="./figures/DatasetStructure.png" height = "190" alt="" align=center />
+<img src="./figures/data_generation_pipeline.png" height = "190" alt="" align=center />
 </p>
 
 ## Datasets
