@@ -1,46 +1,6 @@
-#model_name: "Transformer"
-#hidden_dim: 128
-#num_heads: 4
-#learning_rate: 0.0001
-#dropout: 0.1
-#weight_decay: 0.0001
-#ff_dim: 256
-#
-##load
-##seq_len: 24
-##epochs: 50
-##x_path: data/load/X_load_daily.npy
-##y_path: data/load/y_load_daily.npy
-##log_path: outputs/Transformer/load/metrics_log.json
-##model_path: outputs/Transformer/load/full_model.pt
-#
-##solar
-##seq_len: 24
-##epochs: 500
-##x_path: data/solar/X_solar_daily.npy
-##y_path: data/solar/y_solar_daily.npy
-##log_path: outputs/Transformer/solar/metrics_log.json
-##model_path: outputs/Transformer/solar/full_model.pt
-#
-##wind
-##seq_len: 24
-##epochs: 500
-##x_path: data/wind/X_wind_daily.npy
-##y_path: data/wind/y_wind_daily.npy
-##log_path: outputs/Transformer/wind/metrics_log.json
-##model_path: outputs/Transformer/wind/full_model.pt
-#
-##lmp
-#seq_len: 12
-#epochs: 100
-#x_path: data/lmp/X_lmp_hourly.npy
-#y_path: data/lmp/y_lmp_hourly.npy
-#log_path: outputs/Transformer/lmp/metrics_log.json
-#model_path: outputs/Transformer/lmp/full_model_200.pt
-
 common:
   model_name: Transformer
-  hidden_dim: 128
+  hidden_dim: 64
   num_heads: 4
   learning_rate: 0.0001
   dropout: 0.1
