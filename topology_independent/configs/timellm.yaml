@@ -3,9 +3,6 @@ model_name: TimeLLM
 seq_len: 24
 pred_len: 24
 factor: 3
-enc_in: 7
-dec_in: 7
-c_out: 7
 d_model: 32
 d_ff: 128
 learning_rate: 0.01
@@ -23,9 +20,6 @@ log_path: "outputs/TimeLLM/load/metrics_log.json"
 #seq_len: 24
 #pred_len: 24
 #factor: 3
-#enc_in: 7
-#dec_in: 7
-#c_out: 7
 #d_model: 32
 #d_ff: 128
 #learning_rate: 0.01
@@ -44,9 +38,6 @@ log_path: "outputs/TimeLLM/load/metrics_log.json"
 #seq_len: 24
 #pred_len: 24
 #factor: 3
-#enc_in: 7
-#dec_in: 7
-#c_out: 7
 #d_model: 32
 #d_ff: 128
 #learning_rate: 0.01
@@ -65,9 +56,6 @@ log_path: "outputs/TimeLLM/load/metrics_log.json"
 #seq_len: 12
 #pred_len: 12
 #factor: 3
-#enc_in: 7
-#dec_in: 7
-#c_out: 7
 #d_model: 32
 #d_ff: 128
 #learning_rate: 0.01
