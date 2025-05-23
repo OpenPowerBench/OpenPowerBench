@@ -31,5 +31,5 @@ python main.py
 
 ## Convert Results to PKL
 ```bash
-python scripts/convert_to_pkl.py
+python save_to_pkl.py
 ```
