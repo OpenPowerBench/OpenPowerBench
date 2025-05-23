@@ -1,5 +1,5 @@
-case_T = '\data\IEEE118bus.pwb'
-base_path = '\data\IEEE 118'
+case_T = '\data\IEEE14bus.pwb'
+base_path = '\data\IEEE 14'
 out_path = '\data\output'
 ctg_filepath = '\data\ctg.aux'
 
