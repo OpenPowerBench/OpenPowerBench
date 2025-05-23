@@ -12,7 +12,7 @@ This repository provides a modular framework for performing transient stability 
 - `main.py`: Entry point for running the simulations.
 - `utils/`: Core modules for network interaction, fault handling, result processing.
 - `config/`: Centralized configuration for file paths.
-- `scripts/`: Data post-processing tools (e.g., conversion to `.pkl`).
+- `save_to_pkl.py`: Data post-processing tools (e.g., conversion to `.pkl`).
 
 ## Requirements
 - PowerWorld Simulator with SimAuto
